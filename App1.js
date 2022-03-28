@@ -3,7 +3,7 @@ import Auth from "./Auth";
 import AuthContext from "./AuthContext";
 
 const App1 = () => {
-//using the state to dynamicallly pass the values to the context
+
 
 const [authstatus, setauthstatus] = useState(false);
 const login = () => {
